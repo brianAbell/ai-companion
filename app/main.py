@@ -14,3 +14,10 @@ async def chat(message: Message):
     user_input = message.user_input
     ai_reply = get_ai_response(user_input, memory)
     return {"response": ai_reply}
+
+@app.post("/journal")
+async def journal_entry(entry: Message):
+    from app.memory import add_memory_event
+    add_memory_event(f"Journaled: {entry.user_input}")
+    return {"message": "Journal entry saved."}
+

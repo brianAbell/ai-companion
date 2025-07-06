@@ -22,7 +22,6 @@ Pinned Moments:
         memory_prompt += f"- {moment['summary']} ({moment['date']})\n"
 
     full_prompt = f"{memory_prompt}\nNow respond to the user.\nUser: {user_input}\nAI:"
-    # Add this at the end of build_prompt()
     full_prompt += "\n\nIf the user's message includes anything emotionally significant or worth remembering (like events, emotions, goals), suggest one concise memory to save. Format it like this:\nMEMORY_SUGGESTION: <suggestion here>\n\nIf there's nothing new to remember, reply normally without this line."
 
     return full_prompt.strip()
