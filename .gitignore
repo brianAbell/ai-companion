@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# VS Code settings
+.vscode/
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Installed dependencies
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Black cache
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

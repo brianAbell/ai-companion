@@ -1,0 +1,13 @@
+{
+    "name": "Brian",
+    "goals": ["Build AI companion", "Get stronger at the gym"],
+    "recent_events": ["Felt stressed about work", "Dating Apps have sucked recently"],
+    "core_traits": ["introverted", "emotionally thoughtful"],
+    "pinned_moments": [
+      {
+        "summary": "Talked about past heartbreaks and feeling 'not enough'",
+        "date": "2025-07-04"
+      }
+    ]
+  }
+  
